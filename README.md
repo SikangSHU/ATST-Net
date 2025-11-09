@@ -53,7 +53,7 @@ python ATSTNet_main_train.py
 ### 5. Testing
 
 ```bash
-python ATSTNet_main_train.py
+python ATSTNet_main_test.py
 ```
 
 ---
