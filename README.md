@@ -12,7 +12,7 @@ Crop all tiles in the original dataset into **512×512** patches.
 
 Run `dataset_preprocessing/IHC_autoanno_otsu_threshold.py` to generate stain-unmixed images and masks. Organize the dataset of each biomarker following the examples in the `dataset` folder.
 
-The ground-truth positive nucleus counts (`positive_nucleus_num_gt_512.npz`) are obtained by:
+Ground-truth positive nucleus counts (`positive_nucleus_num_gt_512.npz`) are obtained by:
 
 - `nucleus_gt_generate`, and
 - the trained nucleus segmentation network **CPP-Net** [1].
