@@ -14,7 +14,7 @@ Run `dataset_preprocessing/IHC_autoanno_otsu_threshold.py` to generate stain-unm
 
 Ground-truth positive nucleus counts (`positive_nucleus_num_gt_512.npz`) are obtained by:
 
-- `nucleus_gt_generate`, and
+- `nucleus_gt_generate.py`, and
 - the trained nucleus segmentation network **CPP-Net** [1].
 
 ---
